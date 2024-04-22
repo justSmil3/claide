@@ -8,7 +8,7 @@ const Navbar = ({toggle, onToggle}:
 				 onToggle: ()=> void;}) => {
 	return(
 	  <>
-	    <div className="w-full h-16 bg-orange-800 sticky top-0">
+	    <div className="w-full h-16 bg-orange-800 fixed top-0">
 	      <div className = "container mx-auto px-4 w-full h-full">
 		    <div className = "flex justify-between items-center h-full">  
 			  <BurgerButton className="md:hidden block" onClick={onToggle}/>
