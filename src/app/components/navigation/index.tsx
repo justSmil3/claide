@@ -9,7 +9,7 @@ const Navigation = () => {
 		setIsOpen(false);
 	};
 	const toggleOn = () => {
-		setIsOpen(true);
+		setIsOpen(!isOpen);
 	};
 	return(
 		<>
