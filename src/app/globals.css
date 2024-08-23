@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+	--primary-color: #0d1b2a;
+	--secondary-color: #e0e1dd;
+	--dark-color: #1b263b;
+	--middel-color: #415a77;
+	--bright-color: #778da9;
+}
+
+.text-shadow{
+	text-shadow: 3px 3px var(--primary-color);
+}
+
+.text-shadow-sm{
+	text-shadow: 1px 1px var(--primary-color);	
+}

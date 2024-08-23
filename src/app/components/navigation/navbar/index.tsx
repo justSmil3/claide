@@ -8,13 +8,13 @@ const Navbar = ({toggle, onToggle}:
 				 onToggle: ()=> void;}) => {
 	return(
 	  <>
-	    <div className="w-full h-[6vh] bg-orange-800 sticky top-0 z-50">
+	  <div className="w-full h-[6vh] bg-orange-800 sticky top-0 z-50 bg-primary text-secondary">
 	      <div className = "container mx-auto px-4 w-full h-full">
 		    <div className = "flex justify-between items-center h-full">  
 			  <BurgerButton className="md:hidden block" onClick={onToggle}/>
 		      <Logo />
 			  <div className="flex gap-x-6 items-center">
-			    <ul className="hidden md:flex gap-x-6 text-white">
+			    <ul className="hidden md:flex gap-x-6">
 			      <li>
 			        <Link href="/" onClick={toggle}>
 			          <p>Home</p>

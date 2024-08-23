@@ -1,9 +1,10 @@
 import ContactForm from "components/contactForm";
 
+
 export default function Page() {
 	return(
 		<div className="static">
-		<div className="relative w-screen h-[94vh]">
+		<div className="relative w-full h-[94vh]">
 		  <div className="absolute top-0 w-full h-full bg-red-600 z-10">
 			<div className="flex w-full h-full">
 				<div className="w-full h-full">
@@ -23,71 +24,48 @@ export default function Page() {
 		  <div className="w-full h-full flex items-center bg-gray-800 bg-opacity-60 relative z-20">
 		    <div className="grid grid-cols-3 w-full -mt-16">
 		      <div />
-			  <div className="text-white font-bold text-6xl">
-				<p>Catch Phrase!</p>
+			  <div className="text-secondary font-bold text-6xl">
+				<p className="text-shadow">Catch Phrase!</p>
 			  </div>
 			  <div />
 			  <div />
-			  <div className="text-gray-300 text-3xl">
-				<p>Description of Catch Phrase</p>
+			  <div className="text-secondary text-3xl">
+				<p className="text-shadow-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus venenatis enim, gravida porttitor libero viverra ut. Donec sodales mollis.</p>
 			  </div>
 			  <div />
 		    </div>
 		  </div>
 		</div>
-		<div className="bg-slate-900 text-white relative z-10"> 
-		  <div className="grid grid-cols-2 w-full">
-		  <div className="bg-gray-500 h-[80vh] items-center justify-center flex flex-col items-center">
-			  <div className="font-bold text-3xl w-1/2">
-			    Design Clothes
-			  </div>
-			  <div className="w-1/2">
-				use the AI assistant to create Clothing designs just from your thoughts
-			  </div>
+		<div className="bg-dark text-secondary relative z-10"> 
+		  <div>
+			{/* display list of features in here*/}
+			<div>
+			  STRAIGHT FROM YOUR IDEAR TO A PROFESSIONAL DESIGN
 			</div>
-			<div className="h-[80vh]">
+			<div>
+			  NOT JUST AN AI, BUT A TOOL
 			</div>
-			<div className="h-[80vh]">
+			<div>
+			  DESIGNED WITH INTUITION IN MIND
 			</div>
-			<div className="bg-gray-500 h-[80vh] items-center justify-center flex flex-col items-center">
-			  <div className="font-bold text-3xl w-1/2">
-			    Adjust Patterns
-			  </div>
-			  <div className="w-1/2">
-				use the AI assistant to create Clothing designs just from your thoughts
-			  </div>
+			<div>
+			  ITERATIVELY PERFECTION YOUR DESIGN
 			</div>
-			<div className="bg-gray-500 h-[80vh] items-center justify-center flex flex-col items-center">
-			  <div className="font-bold text-3xl w-1/2">
-			    Refine Designes
-			  </div>
-			  <div className="w-1/2">
-				use the AI assistant to create Clothing designs just from your thoughts
-			  </div>
+			<div>
+			  APPLY DIFFERENT PATTERNS AND FABRICS
 			</div>
-			<div className="h-[80vh]">
+			<div>
+			  CREATE LOOKBOCKS
 			</div>
-			<div className="h-[80vh]">
-			</div>
-			<div className="bg-gray-500 h-[80vh] items-center justify-center flex flex-col items-center">
-			  <div className="font-bold text-3xl w-1/2">
-			    Create Variations
-			  </div>
-			  <div className="w-1/2">
-				use the AI assistant to create Clothing designs just from your thoughts
-			  </div>
+			<div>
+			  ROADMAP
 			</div>
 		  </div>
-		  <div className="h-48 flex items-center justify-center bg-slate-400">
-			<div className="font-bold text-3xl">
-			  <p>And so much more planed</p>
-			</div>
-		  </div>
-		  </div>
-		<div className="w-full h-[70vh] bg-red-400 relative">
+		</div>
+		<div className="w-full h-[70vh] bg-secondary relative">
 		</div>
 		<div className="fixed bottom-[15vh] w-full flex flex-col items-center">
-		<div className="text-4xl text-black font-bold w-[80%] md:w-[37rem]">
+		<div className="text-4xl text-primary font-bold w-[80%] md:w-[37rem]">
 		    <p>Get in touch</p>
 		  </div>
 		  <ContactForm className="w-[80%] md:w-[37rem]"/>
